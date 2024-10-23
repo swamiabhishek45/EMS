@@ -5,9 +5,9 @@ const CreateTask = () => {
         <div className="">
             <form
                 action=""
-                className="flex flex-wrap bg-[#1c1c1c] w-full items-start p-5 rounded-md mt-10 justify-between"
+                className="flex flex-wrap flex-col md:flex-row bg-[#1c1c1c] w-full items-start p-5 rounded-md mt-10 justify-between"
             >
-                <div className="w-1/2">
+                <div className=" w-full md:w-1/2">
                     <h3 className="text-sm text-gray-300 mb-0.5">Task Title</h3>
                     <input
                         type="text"
@@ -40,7 +40,7 @@ const CreateTask = () => {
                     />
                 </div>
 
-                <div className="flex flex-col w-1/2">
+                <div className="flex flex-col w-full md:w-1/2">
                     <div>
                         <h3 className="text-sm text-gray-300 mb-0.5 mt-3">
                             Description
